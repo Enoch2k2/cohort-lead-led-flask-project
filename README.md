@@ -4,7 +4,7 @@ This project was built with the premesis of teaching cohort leads about Flask ap
 
 ### Instructions
 
-Coming soon!
+**Creating the config**
 
 
 ### License

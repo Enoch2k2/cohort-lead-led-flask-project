@@ -29,7 +29,6 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app=app, metadata=metadata)
 
-
 migrate = Migrate(app=app, db=db)
 
 api = Api(app=app)
