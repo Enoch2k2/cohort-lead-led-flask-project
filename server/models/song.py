@@ -1,7 +1,8 @@
 from config import db
+from sqlalchemy_serializer import SerializerMixin
 
 
-class Song(db.Model):
+class Song(db.Model, SerializerMixin):
     __tablename__ = "songs"
 
     id = db.Column(db.Integer, primary_key=True)

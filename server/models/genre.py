@@ -1,7 +1,8 @@
 from config import db
+from sqlalchemy_serializer import SerializerMixin
 
 
-class Genre(db.Model):
+class Genre(db.Model, SerializerMixin):
     __tablename__ = "genres"
 
     id = db.Column(db.Integer, primary_key=True)
